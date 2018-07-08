@@ -34,7 +34,4 @@ protected:
 	virtual void BeginPlay() override;
 
 	UTankAimingComponent* TankAimingComponent = nullptr;
-
-private:	
-
 };
