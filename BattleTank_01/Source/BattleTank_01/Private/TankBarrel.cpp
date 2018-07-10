@@ -4,8 +4,6 @@
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 
-
-
 void UTankBarrel::Elevate(float RelativeSpeed)
 {
 	RelativeSpeed = FMath::Clamp<float>(RelativeSpeed, -1, +1);
